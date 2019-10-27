@@ -1,0 +1,100 @@
+
+body{
+	background:url(../img/xxl9.png) no-repeat;
+	text-align: center;
+}
+td
+{ 
+	 height:25px;
+}
+.foot a{
+	font-size: 20px;
+}
+.foot a:link{
+	color: #D65B88;
+}
+.foot a:hover{
+	color: #FFA500;
+}
+.foot a:active{
+	color: #00BFFF;
+}
+
+.content{
+	margin-top:200px;
+}
+
+.sear{
+	text-align: center;	
+	margin-top: 200px;
+	}
+	.center{
+		text-align: center;
+		margin-top: 50px;
+		border:0px;
+	}
+	.num{
+	border:0px;
+	border-bottom:solid 1px #0000FF;
+	outline:none;
+	border-radius: 0px;
+	background: transparent;
+	width:200px;
+	height:42px;
+	margin:15px 0;
+	letter-spacing:1.6px;
+    color:#0000FF;
+
+}
+	.title{
+		border:0px;
+	border-bottom:solid 1px #0000FF;
+	outline:none;
+	border-radius: 0px;
+	background: transparent;
+	width:200px;
+	height:42px;
+	margin:15px 0;
+	letter-spacing:1.6px;
+    color:#0000FF;
+	}
+	.author{
+		border:0px;
+	border-bottom:solid 1px #0000FF;
+	outline:none;
+	border-radius: 0px;
+	background: transparent;
+	width:200px;
+	height:42px;
+	margin:15px 0;
+	letter-spacing:1.6px;
+    color:#0000FF;
+	}
+	
+.sub{
+font-size: 18px;
+padding: 10px 20px;
+letter-spacing:1.2px;
+border: none;
+text-transform: capitalize;
+outline: none;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background: orange;
+color: #0000FF;
+cursor: pointer;
+margin: 0 auto;
+font-family: "微软雅黑";
+-webkit-transition-duration: 0.9s;
+transition-duration: 0.9s;
+}
+.sub:hover {
+ -webkit-transition-duration: 0.9s;
+ transition-duration: 0.9s;
+ background:rgba(85, 130, 195, 0.76);
+}
+/*修改文字输入框默认样式*/
+::-webkit-input-placeholder{
+   color:#FFA500 !important;
+   }
